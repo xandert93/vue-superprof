@@ -1,4 +1,4 @@
-<template>Tutors Page</template>
+<template><main></main></template>
 
 <script>
 export default {}
