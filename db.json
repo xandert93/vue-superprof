@@ -1,9 +1,10 @@
 {
-  "teachers": [
+  "tutors": [
     {
       "id": "1",
       "firstName": "John",
       "lastName": "Smith",
+      "subject": "Mathematics",
       "bio": "Experienced math teacher with a passion for helping students succeed.",
       "rate": 30.0
     },
@@ -11,6 +12,7 @@
       "id": "2",
       "firstName": "Alice",
       "lastName": "Johnson",
+      "subject": "English Literature",
       "bio": "English literature enthusiast with a focus on critical analysis.",
       "rate": 25.0
     },
@@ -18,6 +20,7 @@
       "id": "3",
       "firstName": "Robert",
       "lastName": "Davis",
+      "subject": "Science",
       "bio": "Science teacher with a background in physics and chemistry.",
       "rate": 35.0
     },
@@ -25,6 +28,7 @@
       "id": "4",
       "firstName": "Emily",
       "lastName": "Brown",
+      "subject": "History",
       "bio": "History teacher with a passion for making the past come alive.",
       "rate": 28.0
     },
@@ -32,6 +36,7 @@
       "id": "5",
       "firstName": "Michael",
       "lastName": "Clark",
+      "subject": "Spanish",
       "bio": "Spanish language expert with years of teaching experience.",
       "rate": 32.0
     },
@@ -39,6 +44,7 @@
       "id": "6",
       "firstName": "Sophia",
       "lastName": "Miller",
+      "subject": "Computer Science",
       "bio": "Computer science teacher who loves coding and problem-solving.",
       "rate": 40.0
     },
@@ -46,6 +52,7 @@
       "id": "7",
       "firstName": "Daniel",
       "lastName": "Taylor",
+      "subject": "Music",
       "bio": "Music teacher specializing in piano and music theory.",
       "rate": 22.0
     },
@@ -53,6 +60,7 @@
       "id": "8",
       "firstName": "Olivia",
       "lastName": "White",
+      "subject": "Art",
       "bio": "Art teacher with a focus on painting and creative expression.",
       "rate": 26.0
     },
@@ -60,6 +68,7 @@
       "id": "9",
       "firstName": "William",
       "lastName": "Anderson",
+      "subject": "Physical Education",
       "bio": "Physical education teacher promoting a healthy and active lifestyle.",
       "rate": 30.0
     },
@@ -67,128 +76,191 @@
       "id": "10",
       "firstName": "Ava",
       "lastName": "Martin",
+      "subject": "French",
       "bio": "French language teacher with a love for language and culture.",
       "rate": 34.0
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "firstName": "Emma",
+      "lastName": "Johnson"
+    },
+    {
+      "id": "2",
+      "firstName": "Liam",
+      "lastName": "Smith"
+    },
+    {
+      "id": "3",
+      "firstName": "Olivia",
+      "lastName": "Williams"
+    },
+    {
+      "id": "4",
+      "firstName": "Noah",
+      "lastName": "Davis"
+    },
+    {
+      "id": "5",
+      "firstName": "Ava",
+      "lastName": "Miller"
+    },
+    {
+      "id": "6",
+      "firstName": "Sophia",
+      "lastName": "Taylor"
+    },
+    {
+      "id": "7",
+      "firstName": "Ethan",
+      "lastName": "Anderson"
+    },
+    {
+      "id": "8",
+      "firstName": "Isabella",
+      "lastName": "Martin"
     }
   ],
   "requests": [
     {
       "id": "1",
-      "teacherId": "3",
+      "tutorId": "3",
+      "studentId": "1",
       "message": "I need help with understanding chemical reactions. Can you assist?",
       "createdAt": "2024-02-03T09:15:00Z"
     },
     {
       "id": "2",
-      "teacherId": "6",
+      "tutorId": "6",
+      "studentId": "2",
       "message": "I want to improve my coding skills. Can you provide guidance?",
       "createdAt": "2024-02-03T10:30:00Z"
     },
     {
       "id": "3",
-      "teacherId": "8",
+      "tutorId": "8",
+      "studentId": "3",
       "message": "I'm interested in learning advanced painting techniques. Are you available?",
       "createdAt": "2024-02-03T11:45:00Z"
     },
     {
       "id": "4",
-      "teacherId": "1",
+      "tutorId": "1",
+      "studentId": "4",
       "message": "I struggle with algebra. Can you help me understand it better?",
       "createdAt": "2024-02-03T13:00:00Z"
     },
     {
       "id": "5",
-      "teacherId": "10",
+      "tutorId": "10",
+      "studentId": "5",
       "message": "I want to enhance my French language skills. Are you open for lessons?",
       "createdAt": "2024-02-03T14:15:00Z"
     },
     {
       "id": "6",
-      "teacherId": "4",
+      "tutorId": "4",
+      "studentId": "6",
       "message": "Can you provide insights into historical events during the Renaissance?",
       "createdAt": "2024-02-03T15:30:00Z"
     },
     {
       "id": "7",
-      "teacherId": "7",
+      "tutorId": "7",
+      "studentId": "7",
       "message": "I'm a beginner in music theory. Can you help me get started?",
       "createdAt": "2024-02-03T16:45:00Z"
     },
     {
       "id": "8",
-      "teacherId": "2",
+      "tutorId": "2",
+      "studentId": "8",
       "message": "Analyzing poetry is challenging for me. Can you offer guidance?",
       "createdAt": "2024-02-03T18:00:00Z"
     },
     {
       "id": "9",
-      "teacherId": "5",
+      "tutorId": "5",
+      "studentId": "1",
       "message": "I need assistance with Spanish grammar. Can you help?",
       "createdAt": "2024-02-03T19:15:00Z"
     },
     {
       "id": "10",
-      "teacherId": "9",
+      "tutorId": "9",
+      "studentId": "2",
       "message": "Can you provide a workout routine for improving fitness?",
       "createdAt": "2024-02-03T20:30:00Z"
     },
     {
       "id": "11",
-      "teacherId": "6",
+      "tutorId": "6",
+      "studentId": "3",
       "message": "I'm stuck on a coding project. Need help!",
       "createdAt": "2024-02-03T21:45:00Z"
     },
     {
       "id": "12",
-      "teacherId": "3",
+      "tutorId": "3",
+      "studentId": "4",
       "message": "I have questions about chemical equations. Can you explain?",
       "createdAt": "2024-02-03T23:00:00Z"
     },
     {
       "id": "13",
-      "teacherId": "1",
+      "tutorId": "1",
+      "studentId": "5",
       "message": "Algebraic expressions confuse me. Can you simplify it?",
       "createdAt": "2024-02-04T09:15:00Z"
     },
     {
       "id": "14",
-      "teacherId": "10",
+      "tutorId": "10",
+      "studentId": "6",
       "message": "I want to learn conversational French. Are you available?",
       "createdAt": "2024-02-04T10:30:00Z"
     },
     {
       "id": "15",
-      "teacherId": "8",
+      "tutorId": "8",
+      "studentId": "7",
       "message": "Can you provide tips for creating visually appealing art?",
       "createdAt": "2024-02-04T11:45:00Z"
     },
     {
       "id": "16",
-      "teacherId": "5",
+      "tutorId": "5",
+      "studentId": "8",
       "message": "I need help with advanced Spanish conversation. Can you assist?",
       "createdAt": "2024-02-04T13:00:00Z"
     },
     {
       "id": "17",
-      "teacherId": "7",
+      "tutorId": "7",
+      "studentId": "1",
       "message": "What are the key elements of music composition? I want to learn.",
       "createdAt": "2024-02-04T14:15:00Z"
     },
     {
       "id": "18",
-      "teacherId": "9",
+      "tutorId": "9",
+      "studentId": "2",
       "message": "Can you provide a personalized workout plan for me?",
       "createdAt": "2024-02-04T15:30:00Z"
     },
     {
       "id": "19",
-      "teacherId": "2",
+      "tutorId": "2",
+      "studentId": "3",
       "message": "I need help understanding Shakespearean sonnets. Can you assist?",
       "createdAt": "2024-02-04T16:45:00Z"
     },
     {
       "id": "20",
-      "teacherId": "4",
+      "tutorId": "4",
+      "studentId": "4",
       "message": "I'm interested in learning about ancient civilizations. Can you help?",
       "createdAt": "2024-02-04T18:00:00Z"
     }
