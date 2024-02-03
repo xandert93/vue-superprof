@@ -1,9 +1,16 @@
 <template>
+  <TheHeader />
   <RouterView />
 </template>
 
 <script>
-export default {}
+import TheHeader from './components/layout/TheHeader'
+
+export default {
+  components: {
+    TheHeader,
+  },
+}
 </script>
 
 <style>
