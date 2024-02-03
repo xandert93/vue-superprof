@@ -5,80 +5,80 @@
       "firstName": "John",
       "lastName": "Smith",
       "subject": "Mathematics",
-      "bio": "Experienced math teacher with a passion for helping students succeed.",
-      "rate": 30.0
+      "description": "Experienced math teacher with a passion for helping students succeed.",
+      "hourlyRate": 30
     },
     {
       "id": "2",
       "firstName": "Alice",
       "lastName": "Johnson",
       "subject": "English Literature",
-      "bio": "English literature enthusiast with a focus on critical analysis.",
-      "rate": 25.0
+      "description": "English literature enthusiast with a focus on critical analysis.",
+      "hourlyRate": 25
     },
     {
       "id": "3",
       "firstName": "Robert",
       "lastName": "Davis",
       "subject": "Science",
-      "bio": "Science teacher with a background in physics and chemistry.",
-      "rate": 35.0
+      "description": "Science teacher with a background in physics and chemistry.",
+      "hourlyRate": 35
     },
     {
       "id": "4",
       "firstName": "Emily",
       "lastName": "Brown",
       "subject": "History",
-      "bio": "History teacher with a passion for making the past come alive.",
-      "rate": 28.0
+      "description": "History teacher with a passion for making the past come alive.",
+      "hourlyRate": 28
     },
     {
       "id": "5",
       "firstName": "Michael",
       "lastName": "Clark",
       "subject": "Spanish",
-      "bio": "Spanish language expert with years of teaching experience.",
-      "rate": 32.0
+      "description": "Spanish language expert with years of teaching experience.",
+      "hourlyRate": 32
     },
     {
       "id": "6",
       "firstName": "Sophia",
       "lastName": "Miller",
       "subject": "Computer Science",
-      "bio": "Computer science teacher who loves coding and problem-solving.",
-      "rate": 40.0
+      "description": "Computer science teacher who loves coding and problem-solving.",
+      "hourlyRate": 40
     },
     {
       "id": "7",
       "firstName": "Daniel",
       "lastName": "Taylor",
       "subject": "Music",
-      "bio": "Music teacher specializing in piano and music theory.",
-      "rate": 22.0
+      "description": "Music teacher specializing in piano and music theory.",
+      "hourlyRate": 22
     },
     {
       "id": "8",
       "firstName": "Olivia",
       "lastName": "White",
       "subject": "Art",
-      "bio": "Art teacher with a focus on painting and creative expression.",
-      "rate": 26.0
+      "description": "Art teacher with a focus on painting and creative expression.",
+      "hourlyRate": 26
     },
     {
       "id": "9",
       "firstName": "William",
       "lastName": "Anderson",
       "subject": "Physical Education",
-      "bio": "Physical education teacher promoting a healthy and active lifestyle.",
-      "rate": 30.0
+      "description": "Physical education teacher promoting a healthy and active lifestyle.",
+      "hourlyRate": 30
     },
     {
       "id": "10",
       "firstName": "Ava",
       "lastName": "Martin",
       "subject": "French",
-      "bio": "French language teacher with a love for language and culture.",
-      "rate": 34.0
+      "description": "French language teacher with a love for language and culture.",
+      "hourlyRate": 34
     }
   ],
   "students": [
