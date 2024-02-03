@@ -1,30 +1,24 @@
 <template>
-  <button v-if="!link" :class="mode">
-    <slot></slot>
+  <button v-if="!link" :class="variant">
+    <slot />
   </button>
-  <router-link v-else :to="to" :class="mode">
-    <slot></slot>
-  </router-link>
+  <RouterLink v-else :to="to" :class="variant">
+    <slot />
+  </RouterLink>
 </template>
 
 <script>
 export default {
   props: {
-    mode: {
+    variant: {
       type: String,
-      required: false,
       default: null,
     },
     link: {
       type: Boolean,
-      required: false,
       default: false,
     },
-    to: {
-      type: String,
-      required: false,
-      default: '/',
-    },
+    to: String,
   },
 }
 </script>
@@ -32,14 +26,13 @@ export default {
 <style scoped>
 button,
 a {
-  padding: 0.75rem 1.5rem;
+  padding: 12px 24px;
   font: inherit;
   background-color: #3a0061;
   border: 1px solid #3a0061;
   color: white;
   cursor: pointer;
-  border-radius: 30px;
-  margin-right: 0.5rem;
+  border-radius: 8px;
   display: inline-block;
 }
 
@@ -57,7 +50,7 @@ button:active {
   border: none;
 }
 
-.outline {
+.outlined {
   background-color: transparent;
   border-color: #270041;
   color: #270041;
@@ -65,8 +58,8 @@ button:active {
 
 .flat:hover,
 .flat:active,
-.outline:hover,
-.outline:active {
+.outlined:hover,
+.outlined:active {
   background-color: #edd2ff;
 }
 </style>
